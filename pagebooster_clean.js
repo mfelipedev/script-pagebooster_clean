@@ -1,4 +1,5 @@
 (function() {
+
   // Preconnect para CDNs mais usadas
   var preconnects = [
     "https://static.parastorage.com",
@@ -54,6 +55,7 @@
           s.defer = true;
           document.body.appendChild(s);
         }, 1500);
+        console.log("pagebooster_clean.js carregado!");
       }
     });
   });
